@@ -1,0 +1,49 @@
+<html>
+<head>
+<script>
+function exam()
+{
+var m=0;
+if(document.examForm.one.value=="i tag")
+m=m+1;
+if(document.examForm.two.value=="unique resource identifier")
+m=m+1;
+if(document.examForm.three.value=="6")
+m=m+1;
+ alert("Thankyou  For Taking The Online Exam  \n\n  Your Score Is: "+m+" Out Of 3");
+}
+</script>
+</head
+<body bgcolor="IVORY">
+<form name="examForm" onsubmit="return exam()" method="get">
+<h1><b><u><center>EXAM FORM</center></u></b></h1>
+NAME:<input type="text" name="name"/><br><br><br>
+<p><b>1.which element is used for making any text ITALIC?<br><br></b>
+<input type="radio" name="one" value="i tag">i tag<br><br>
+<input type="radio" name="one" value="b tag">b tag<br><br>
+<input type="radio" name="one" value="p tag">p tag<br><br>
+<input type="radio" name="one" value="u tag">u tag<br><br>
+</p>
+
+<p><b>2.what is the full form of URL?<br><br></b>
+<input type="radio" name="two" value="unique resource identifier">UNIQUE RESOURCE IDENTIFIER<br><br>
+<input type="radio" name="two" value="unique resource identifier">UNIFORM RESOURCE LOCATOR<br><br>
+<input type="radio" name="two" value="unique resource identifier">UNIQUE RESOURCE IDENTIFIER<br><br>
+<input type="radio" name="two" value="unique resource identifier">UNIFORM RESOURCE IDENTIFIER<br><br>
+</p>
+
+<p><b>3.How many headings are there in HTML?<br><br></b>
+<input type="radio" name="three" value="2">2<br><br>
+<input type="radio" name="three" value="3">3<br><br>
+<input type="radio" name="three" value="4">4<br><br>
+<input type="radio" name="three" value="6">6<br><br>
+</P>
+
+<P>
+<CENTER>
+<INPUT TYPE="SUBMIT" VALUE="SUBMIT">
+<INPUT TYPE="RESET" VALUE="RESET">
+</center>
+</p>
+</body>
+</html>
